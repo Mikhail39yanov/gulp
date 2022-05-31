@@ -1,0 +1,24 @@
+// @import 'fonts'
+
+body {
+  background-color: black;
+  background-image: url('@img/1.jpeg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+
+  h1 {
+    color: goldenrod;
+  }
+}
+
+@media (max-width:768px) {
+  h1 {
+    color: blue;
+  }
+}
+
+@media (max-width:768px) {
+  body {
+    background-color: aqua;
+  }
+}
